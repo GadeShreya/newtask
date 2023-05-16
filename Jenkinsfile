@@ -7,7 +7,7 @@ pipeline {
                 echo 'This is build stage.'
             }
         }
-        stage('Test') {
+        stage('test') {
             steps {
                 sh 'bash test.sh'
             }
